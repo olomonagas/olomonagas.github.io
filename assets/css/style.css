@@ -1,0 +1,61 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/fondo_cata.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    width: 100px;
+  }
+}
+
+.justificar {
+  text-align: justify;
+  color: rgb(68, 18, 185);
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.bg-clgrey {
+  background-color: rgb(221, 218, 218);
+}
+
+.text-cred {
+  color: rgb(231, 84, 116);
+}
+
+.portafolio {
+  width: 100%;
+}
+
+.table tbody{
+  width: 50%;
+}
